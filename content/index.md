@@ -10,9 +10,9 @@ Topics are gonna be weird and erratic af - Main content will likely be on busine
 
 
 Follow me in other places bc why not:
-[Tiktok:](https://tiktok.com/@dannyhayder)
-[X:](https://x.com/dannyhayder)
-[instagram:](instagram.com/dannyhayder)
+- [TikTok](https://tiktok.com/@dannyhayder)
+- [X](https://x.com/dannyhayder)
+- [Instagram](https://instagram.com/dannyhayder)
 
 Enjoy 🤟
 
