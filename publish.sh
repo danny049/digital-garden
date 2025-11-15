@@ -45,6 +45,13 @@ else
     echo "✅ No changes to commit"
 fi
 
+# Pull latest changes before pushing (to avoid conflicts)
+echo "📥 Pulling latest changes from origin/main..."
+git pull --rebase origin main || {
+    echo "⚠️  Pull failed. You may need to resolve conflicts manually."
+    exit 1
+}
+
 # Push to trigger deployment
 echo "📤 Pushing to origin/main to trigger deployment..."
 git push origin main
