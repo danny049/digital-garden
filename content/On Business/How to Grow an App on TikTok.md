@@ -1,3 +1,6 @@
+---
+title: How To Grow an App on TikTok Without Getting Lucky.
+---
 
 All the below tips are very useful, but it’s the 25%… 75% of the path to success is literally just posting 3x a day everyday, learning from each post and getting better over time. TikTok is a free supermarket - the more you go, the more you’re gonna get, but you still have to show up to get stuff. You still have to post a lot consistently to get growth on TikTok regardless of account size.
 
