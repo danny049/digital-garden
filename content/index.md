@@ -2,7 +2,7 @@
 title: It's Danny 👋
 ---
 
-I'm a founder (check out my [startup](https://carter.chat)), gamer, MMA lover and wannabe writer/content creator.
+I'm a founder (Building [Carter Labs](https://carter.chat) with my cofounder and g [Huw](https://huwprosser.github.io/)), gamer, MMA lover and wannabe writer/content creator.
 
 idk what i'm gonna do on this site, but it's probably gonna be a mix of quick thoughts, observations, long form write-ups and the occasional deep-dive when i cba.
 
