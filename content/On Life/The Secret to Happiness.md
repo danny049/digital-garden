@@ -1,5 +1,5 @@
 ---
-title: The Secret to Happiness.
+title: The Secret to Happiness
 ---
 Open your backpack.
   
