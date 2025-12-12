@@ -9,9 +9,9 @@ Unzip it and tell me what you see. 
 
 If you’re anything like me, you see a whole bunch of heavy blocks. These blocks represent all the bad moments you’ve encountered so far in your life.
 
-You’re going through life letting the good blocks of life bounce right past you and get forgotten, but the bad blocks… man. 
+You’re going through life letting the good blocks bounce right past you and get forgotten, but the bad blocks... 
 
-Your knuckles turn white from how hard you grab ahold of those bad boys and shove them deep into your mental backpack.
+Your knuckles turn white from how hard you grab ahold of them and shove them deep into your mental backpack.
 
 You’ve been collecting these bad blocks for years… But you’ve only made it part way down the road so far.
 
@@ -41,7 +41,9 @@ Now before you jump ahead of me… No, I’m not going to tell you: 
 
 *"Throw away the bad blocks!"*
 
-That might be possible, but I don’t know how to do that. Tried. Failed.
+That might be possible, but I don’t know how to do that. 
+
+Tried. Failed.
 
 Instead I'm going to ask you to take one of those bad blocks out of the backpack and into your hands.
 
@@ -49,9 +51,9 @@ Feel it. Relive the moment where you first found it. 
 
 Painful to recall.
 
-Now squeeze that bad block and watch how it turns to sand, falls through your fingers leaves only a small shiny block in your palm.
+Now squeeze that bad block and watch how it turns to sand, falls through your fingers and leaves only a small shiny block in your palm.
 
-That small shiny block represents the morsel of good that you can extract from every bad block of life. 
+That small shiny block represents the morsel of good that you can extract from every single bad block of life. 
 
 It’s a lesson, an awakening, a character development.
 
@@ -65,27 +67,29 @@ You’ll realise the backpack is now infinitely lighter and you can get up off y
 
 When the next bad block of life comes bouncing towards you, what do you do? 
 
-Well, you can’t help yourself. You **are** going to pick it up. We all do.
+Well, you can’t help yourself. You **are** going to pick it up. 
+
+We all do.
 
 But this time, don’t shove it straight into your backpack.
 
-Break it apart in your hands until all you’re left with is that small shiny good block at the center of every bad block.
+Break it apart in your hands until all you’re left with is that small shiny good block at the center of every bad.
 
 Only that part goes in the backpack.
 
-*“But wait, won’t the bag also get heavy from all the shiny good blocks that I collect over time?”*
+*“But won’t the bag also get heavy from all the shiny good blocks that I collect over time?”*
 
 No. That’s not the way good blocks work.
 
-If all you carry with you is a heap of good lessons from life, it’s now your mission to give them to others you meet along the road and teach them how to find their own.
+If all you carry with you is a heap of good takeaways from life, it’s now your mission to give them to others you meet along the road and teach them how to find their own.
 
-Some people you give a good block to along the road, will in exchange, give you one of their own good blocks in return.
+Some people you gift with a good block will in exchange, gift you with one of their own in return.
 
 Those are the people you walk along the road together with. 
 
 Before you know it, you and the people you walk with, have an enormous wealth of good blocks of life that you’ve collected over time.
 
-You walk with a smile, hand-in-hand. Together towards the sunset.
+You all walk with a smile, hand-in-hand. Together towards the sunset.
 
 **This is true wealth.** 
 
