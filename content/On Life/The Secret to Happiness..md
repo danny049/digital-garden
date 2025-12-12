@@ -23,7 +23,7 @@ Probably not. 
 
 It’s been a long time since then. But it was once weightless.
 
-You **chose** to fill it with these heavy bad blocks.
+You **chose** to fill the bag with these heavy bad blocks.
 
 It’s not your fault. You were too naive to realise how heavy the bag could get and how long your journey was about to be.
 
@@ -37,9 +37,9 @@ You’re brought to your knees under the weight.
 
 Now before you jump ahead of me… No, I’m not going to tell you: 
 
-“Take the backpack off’” or 
+*“Take the backpack off’”* or 
 
-‘Throw away the bad blocks!’
+*"Throw away the bad blocks!"*
 
 That might be possible, but I don’t know how to do that. Tried. Failed.
 
@@ -73,7 +73,7 @@ Break it apart in your hands until all you’re left with is that small shiny go
 
 Only that part goes in the backpack.
 
-“But wait, won’t the bag also get heavy from all the shiny good blocks that I collect over time?”
+*“But wait, won’t the bag also get heavy from all the shiny good blocks that I collect over time?”*
 
 No. That’s not the way good blocks work.
 
