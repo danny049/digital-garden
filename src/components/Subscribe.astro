@@ -36,14 +36,28 @@ const subscribeUrl = new URL('/subscribe', publication).href;
 
       try {
         const fields = new FormData(form);
-        const response = await fetch(form.action, {
+        const email = String(fields.get('email') ?? '');
+        // Brevo sign-up forms (sibforms.com) take multipart fields and reply with { success }.
+        const isBrevo = new URL(form.action).hostname.endsWith('.sibforms.com');
+        let url = form.action;
+        let body: BodyInit = new URLSearchParams({ email });
+        if (isBrevo) {
+          const brevo = new FormData();
+          brevo.append('EMAIL', email);
+          brevo.append('email_address_check', '');
+          brevo.append('locale', 'en');
+          brevo.append('html_type', 'simple');
+          url = `${form.action}?isAjax=1`;
+          body = brevo;
+        }
+        const response = await fetch(url, {
           method: 'POST',
           headers: { Accept: 'application/json' },
-          body: new URLSearchParams({ email: String(fields.get('email') ?? '') }),
+          body,
           signal: AbortSignal.timeout(10_000),
         });
         const result = await response.json();
-        if (response.ok && result.subscribed === true) {
+        if (response.ok && (result.subscribed === true || result.success === true)) {
           form.hidden = true;
           heading.hidden = true;
           section.removeAttribute('aria-labelledby');

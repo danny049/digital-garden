@@ -13,7 +13,7 @@ import site from '../data/site.json';
       {import.meta.env.DEV ? (
         <p>The local preview saves your email address and signup time in a database on this computer.</p>
       ) : site.newsletter.endpoint ? (
-        <p>When you sign up, the signup service saves your email address and the time you signed up. Each newsletter email includes a way to unsubscribe.</p>
+        <p>When you sign up, your email address and signup time are stored with <a href="https://www.brevo.com/">Brevo</a>, the service that sends the newsletter. Each newsletter email includes a way to unsubscribe. See <a href="https://www.brevo.com/legal/privacypolicy/">Brevo’s privacy policy</a> for details.</p>
       ) : (
         <p>Substack handles newsletter signups and stores the email address you share with it. You can unsubscribe using the link in any newsletter email. See <a href="https://substack.com/privacy">Substack’s privacy policy</a> for details.</p>
       )}

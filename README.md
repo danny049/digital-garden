@@ -57,7 +57,7 @@ The sync is a manual pre-build step. Review and retain the new Markdown in the r
 
 The shared `Subscribe.astro` form shows “You're in.” after the server saves the email. Use `pnpm dev` to test signup. It saves addresses and signup times in `.private/subscribers.sqlite`. This database is excluded from Git and the build. To inspect or export it, read the `subscribers` table with SQLite. To keep test signups in a separate database, start Astro with `SUBSCRIBERS_DB_PATH` set to the path of a separate local SQLite file.
 
-In production, a blank `newsletter.endpoint` displays a link to the publication’s official Substack signup page. GitHub Pages serves static files, so it cannot run the local signup handler. To use the inline form on the live site, set `newsletter.endpoint` in `site.json` to an HTTPS signup handler that accepts a URL-encoded `email` field by POST and returns JSON with `subscribed: true` after a successful save. Configure the handler to allow requests from `https://dannyhayder.com` and update the privacy page to name the storage provider. Substack RSS import is independent of signup.
+In production, the form posts to the Brevo sign-up form set as `newsletter.endpoint` in `site.json` (Brevo → Contacts → Forms → “dannyhayder.com signup”). New addresses land in the list chosen on that form. The site keeps its own design and sends Brevo's `EMAIL` field with `?isAjax=1`, so readers stay on the page and see “You're in.”. Leave the form's reCAPTCHA off, because the site's own form can't show it. Set `newsletter.endpoint` to `null` to fall back to a link to the Substack signup page.
 
 ## Publish
 
