@@ -18,9 +18,9 @@ There were no unresolved article URLs in the public inventory. For anything olde
 
 ## Media and formatting
 
-- The 12 original Creative Examples TikTok embeds use TikTok's official player and load as readers approach them. Each has a link to the original post. TikTok returned embed markup for all 12. Playback still depends on TikTok and the visitor's browser.
-- Three in-body Creative Examples diagrams are hosted locally as optimised WebP files. The 12 original header/card images are recorded in the manifest for reuse review. The five in-body screenshots or collages that need a rights check remain linked in *Controversial*, *You know what people love? Underdog stories*, *You have followers. Do you have die-hard fans?*, *Please shoot the messenger*, and *This is how you do ‘purple cow’ content*.
-- The original cover collages in *How She Grew A $50m Brand From Her Eyebrows.* and *This Girl Sold 2.4 Million Brownies on TikTok.* remain linked at their original positions. The opening film still for *A Niche Rant on Why App Businesses Suck To Build* remains in the supplied PDF. These three assets need reuse clearance before rehosting.
+- The 12 original Creative Examples TikTok embeds use TikTok’s official player and render in place. The six TikTok links in *How To Grow an App on TikTok Without Getting Lucky.* are embedded the same way. Each has a link to the original post. Playback still depends on TikTok and the visitor’s browser.
+- Three in-body Creative Examples diagrams and the five in-body screenshots or collages in *Controversial*, *You know what people love? Underdog stories*, *You have followers. Do you have die-hard fans?*, *Please shoot the messenger*, and *This is how you do ‘purple cow’ content* are hosted locally as optimised WebP files and shown in place. The 12 original header/card images are recorded in the manifest for reuse review.
+- The original cover collages in *How She Grew A $50m Brand From Her Eyebrows.* and *This Girl Sold 2.4 Million Brownies on TikTok.* are hosted locally and shown at their original positions. The opening film still for *A Niche Rant on Why App Businesses Suck To Build* remains in the supplied PDF.
 - Original prose, lists, headings, and article links were carried over. Quartz's heading IDs were preserved. Substack's in-article signup widgets were replaced by the site's shared signup section after the essay.
 
 ## Existing site

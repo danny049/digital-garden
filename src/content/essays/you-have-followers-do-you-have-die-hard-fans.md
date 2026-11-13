@@ -4,7 +4,7 @@ description: "A creative breakdown by Danny Hayder."
 date: "2026-04-23"
 category: "marketing"
 sources: [{"name":"Creative Examples","id":"07f63e78-9ca7-4979-aaa6-2549b4d8fb9f","url":"https://www.creativeexamples.com/#you-have-followers-do-you-have-die-hard-fans","date":"2026-04-23","status":"imported"}]
-mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/091d70af6a7bb750d6d8c927656df434884a3430-1920x1080.png","note":"Original card or header artwork. Review rights to the third-party material before rehosting."},{"url":"https://cdn.sanity.io/images/prwe0dj2/production/cc62a8b0824822431e96ee0be9d6f85b7f7b1359-1079x1177.png","note":"Third-party screenshot or collage. A link remains at the original position pending reuse review."}]
+mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/091d70af6a7bb750d6d8c927656df434884a3430-1920x1080.png","note":"Original card or header artwork. Review rights to the third-party material before rehosting."}]
 ---
 
 People need to buy you, before they buy your thing.
@@ -26,7 +26,7 @@ But that’s not the thing to pay attention to. The thing to pay attention to is
 
 Because every new person that lands on Clomana's TikTok learns that story.
 
-[View the original example image ↗](https://cdn.sanity.io/images/prwe0dj2/production/cc62a8b0824822431e96ee0be9d6f85b7f7b1359-1079x1177.png)
+<img src="/images/essays/clomana.webp" alt="Clomaná’s TikTok profile beside its pinned post of the founder with her nana, captioned “Nana, please can you help me start my own business? It’s £530 for 100 pairs of lashes?”" width="1079" height="1177" loading="lazy" decoding="async">
 
 The audience sees the sponge, but they also see the whole character arc leading up to that sponge.
 

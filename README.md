@@ -49,7 +49,7 @@ pnpm sync:substack
 pnpm build
 ```
 
-The sync reads the official RSS feed for the publication in `site.json` and checks the publication origin, post URLs, and author. It imports the full article body from `content:encoded`, keeps source IDs and dates, and flags likely duplicates or restricted articles for review. Existing Markdown and entries that fall off the feed stay intact. If fetching fails, the command exits with an error and the static build still uses the local archive. Use `--from /path/to/feed.xml` to sync a saved copy of the feed. Newly synced articles use the `business` category until curated. Images with unverified reuse rights are linked and recorded in `mediaReview`.
+The sync reads the official RSS feed for the publication in `site.json` and checks the publication origin, post URLs, and author. It imports the full article body from `content:encoded`, keeps source IDs and dates, and flags likely duplicates or restricted articles for review. Existing Markdown and entries that fall off the feed stay intact. If fetching fails, the command exits with an error and the static build still uses the local archive. Use `--from /path/to/feed.xml` to sync a saved copy of the feed. Newly synced articles use the `business` category until curated. Images render in place from Substack’s CDN and are recorded in `mediaReview` as a reminder to add a local copy.
 
 The sync is a manual pre-build step. Review and retain the new Markdown in the repository before deploying so it survives future builds and feed changes. For older posts beyond the public archive, Substack provides a posts export under **Settings → Exports**. Only the post HTML is needed for migration.
 

@@ -4,14 +4,14 @@ description: "A creative breakdown by Danny Hayder."
 date: "2026-04-23"
 category: "marketing"
 sources: [{"name":"Creative Examples","id":"79d9345a-8d56-4f1a-ae25-12eba92b5790","url":"https://www.creativeexamples.com/#please-shoot-the-messenger","date":"2026-04-23","status":"imported"}]
-mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/6fee1f76dcdb7ba8a78aab24d0e9f72fa6168a0f-1376x768.jpg","note":"Original card or header artwork. Review rights to the third-party material before rehosting."},{"url":"https://cdn.sanity.io/images/prwe0dj2/production/2eb384c4a1a82bfefbc42c12212ac7f62a1b3110-1920x1080.png","note":"Third-party screenshot or collage. A link remains at the original position pending reuse review."}]
+mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/6fee1f76dcdb7ba8a78aab24d0e9f72fa6168a0f-1376x768.jpg","note":"Original card or header artwork. Review rights to the third-party material before rehosting."}]
 ---
 
 James & Fuhad are so jokes.
 
 We’ve all seen at least one <u><a href="https://www.tiktok.com/@shxtsngigs">Shxts n Gigs clip</a></u> on our FYP.
 
-[View the original example image ↗](https://cdn.sanity.io/images/prwe0dj2/production/2eb384c4a1a82bfefbc42c12212ac7f62a1b3110-1920x1080.png)
+<img src="/images/essays/shxts-n-gigs.webp" alt="Three Shxts n Gigs clips, each with a host reacting on a phone to a funny post shown on screen." width="1120" height="630" loading="lazy" decoding="async">
 
 They’ve grown to over 20M+ followers suuuper quickly which they just spoke about on this podcast [episode](https://www.youtube.com/watch?v=mnjqsC1ahQc).
 

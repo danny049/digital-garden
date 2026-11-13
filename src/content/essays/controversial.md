@@ -4,7 +4,7 @@ description: "A creative breakdown by Danny Hayder."
 date: "2026-04-23"
 category: "marketing"
 sources: [{"name":"Creative Examples","id":"f8fcf011-764a-4534-b79e-2399dfa08057","url":"https://www.creativeexamples.com/#controversial","date":"2026-04-23","status":"imported"}]
-mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/51f0eaf314834c761c77fa855025b67ec4e996c6-1920x1080.jpg","note":"Original card or header artwork. Review rights to the third-party material before rehosting."},{"url":"https://cdn.sanity.io/images/prwe0dj2/production/1e5735e59e42f430cdf00b32ed3721d2ba807a7d-1920x1080.png","note":"Third-party screenshot or collage. A link remains at the original position pending reuse review."}]
+mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/51f0eaf314834c761c77fa855025b67ec4e996c6-1920x1080.jpg","note":"Original card or header artwork. Review rights to the third-party material before rehosting."}]
 ---
 
 You clicked on this post just because it says ‘Controversial’ 😂
@@ -23,7 +23,7 @@ See for yourself:
 -   [Channel 2](https://www.tiktok.com/@lcsign_led_signage)
 -   [Channel 3](https://www.tiktok.com/@lcsign_signfactory)
 
-[View the original example image ↗](https://cdn.sanity.io/images/prwe0dj2/production/1e5735e59e42f430cdf00b32ed3721d2ba807a7d-1920x1080.png)
+<img src="/images/essays/lcsign-tony.webp" alt="Three TikTok stills: a shirtless man filming himself in a gym, the LC Sign presenter appearing behind him, then the presenter selling LED shop signs." width="1120" height="630" loading="lazy" decoding="async">
 
 Tony’s format of a funny controversial hook followed up by a direct ad read is genius.
 

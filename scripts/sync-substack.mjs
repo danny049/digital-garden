@@ -69,8 +69,9 @@ try {
       mediaReview,
       image: (attributes) => {
         const src = attributes.src;
-        if (src) mediaReview.push({ url: src, note: 'New RSS image. Review its reuse rights before adding a local copy.' });
-        return { tagName: src ? 'a' : 'span', attribs: src ? { href: src } : {}, text: attributes.alt || (src ? 'View the original image ↗' : '') };
+        // Images render in place from Substack's CDN. The note is a reminder to add a local copy.
+        if (src) mediaReview.push({ url: src, note: 'New RSS image, shown from Substack’s CDN. Add a local copy in public/images/essays/ to keep it permanent.' });
+        return undefined;
       },
     });
     if (!markdown.trim()) {

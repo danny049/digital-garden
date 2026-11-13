@@ -4,7 +4,7 @@ description: "A creative breakdown by Danny Hayder."
 date: "2026-04-23"
 category: "marketing"
 sources: [{"name":"Creative Examples","id":"73926cd6-0265-406e-9b6f-2b95e7026849","url":"https://www.creativeexamples.com/#you-know-what-people-love-underdog-stories","date":"2026-04-23","status":"imported"}]
-mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/4fb33db99782449f49eea80911b096e9486062c3-800x500.webp","note":"Original card or header artwork. Review rights to the third-party material before rehosting."},{"url":"https://cdn.sanity.io/images/prwe0dj2/production/e5ab1cf4a5c860858376ae2ab43c70ee4230ea48-1920x1080.png","note":"Third-party screenshot or collage. A link remains at the original position pending reuse review."}]
+mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/4fb33db99782449f49eea80911b096e9486062c3-800x500.webp","note":"Original card or header artwork. Review rights to the third-party material before rehosting."}]
 ---
 
 People are so afraid to post their L’s online.
@@ -33,7 +33,7 @@ Hundreds of thousands of people on TikTok became passionate followers of Lucie�
 
 Fast forward to today, Lucie’s Hair Syrup is in Boots and heading for £15m in annual revenue.
 
-[View the original example image ↗](https://cdn.sanity.io/images/prwe0dj2/production/e5ab1cf4a5c860858376ae2ab43c70ee4230ea48-1920x1080.png)
+<img src="/images/essays/hair-syrup.webp" alt="Two slides from Lucie Macleod’s post, “I may have been rejected from Dragons’ Den in 2024, but in 2025… my brand launched in Boots”, beside the Hair Syrup TikTok profile." width="1120" height="630" loading="lazy" decoding="async">
 
 The lesson is:
 

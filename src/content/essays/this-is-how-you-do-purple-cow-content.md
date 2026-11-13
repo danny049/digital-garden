@@ -4,7 +4,7 @@ description: "A creative breakdown by Danny Hayder."
 date: "2026-04-22"
 category: "marketing"
 sources: [{"name":"Creative Examples","id":"e17e01c4-a43d-409e-a3cc-0604c5494220","url":"https://www.creativeexamples.com/#this-is-how-you-do-purple-cow-content","date":"2026-04-22","status":"imported"}]
-mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/dd526ac7259e4c7e3c4a89d4b51ee837e4941529-1920x1080.png","note":"Original card or header artwork. Review rights to the third-party material before rehosting."},{"url":"https://cdn.sanity.io/images/prwe0dj2/production/53d072f3957ecfd96ab6927255cbd60bbc18bc06-1024x937.png","note":"Third-party screenshot or collage. A link remains at the original position pending reuse review."}]
+mediaReview: [{"url":"https://cdn.sanity.io/images/prwe0dj2/production/dd526ac7259e4c7e3c4a89d4b51ee837e4941529-1920x1080.png","note":"Original card or header artwork. Review rights to the third-party material before rehosting."}]
 ---
 
 Seth Godin has this idea called ‘The Purple Cow’.
@@ -29,7 +29,7 @@ Woke up the next morning to hundreds of thousands of shares.
 
 Turns out a lot of people wanted death water: Liquid Death is worth $1.4 billion today.
 
-[View the original example image ↗](https://cdn.sanity.io/images/prwe0dj2/production/53d072f3957ecfd96ab6927255cbd60bbc18bc06-1024x937.png)
+<img src="/images/essays/liquid-death.webp" alt="Liquid Death’s TikTok profile with 7.1M followers and a grid of its most popular videos, several with over 20M views." width="1024" height="937" loading="lazy" decoding="async">
 
 Moral of the story: The more viually striking your product looks, the less effort it takes to get people to really pay attention.
 

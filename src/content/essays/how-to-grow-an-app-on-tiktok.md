@@ -28,9 +28,13 @@ Assuming you’re already hitting this, you’ve formed the habit and it’s bee
 
 <h2 id="be-direct-but-not-too-ad-y"><strong>Be Direct, But Not Too “Ad-y”</strong></h2>
 
--   Actually mention your product. Don’t be too subtle. If you’ve got an easy to say URL or app name, actually say it and talk about it. Here is an example at the end of this video: [https://www.tiktok.com/@carter.chat/video/7447885610737487136](https://www.tiktok.com/@carter.chat/video/7447885610737487136) (this post gave us tens of thousands of signups)
+-   Actually mention your product. Don’t be too subtle. If you’ve got an easy to say URL or app name, actually say it and talk about it. Here is an example at the end of this video: (this post gave us tens of thousands of signups)
+
+    <figure class="tiktok-video"><iframe src="https://www.tiktok.com/player/v1/7447885610737487136?autoplay=0" title="TikTok video example" width="340" height="604" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; picture-in-picture" allowfullscreen></iframe><figcaption><a href="https://www.tiktok.com/@carter.chat/video/7447885610737487136">Open on TikTok ↗</a></figcaption></figure>
     
--   Avoid old-school, cringeworthy ads styles though. If your video sounds boomer, it wont work - not even on boomers. Instead, embrace the new style of advertising that blends seamlessly into TikTok’s culture. e.g. instead of saying “I’m building Cue, the worlds first XYZ”, say “My Boss thinks I’m a 10X engineer. I’m actually not, I just record every meeting with Cue so I know what he wants from me” Here is an example: [https://www.tiktok.com/@carter.chat/video/7434489135655701792](https://www.tiktok.com/@carter.chat/video/7434489135655701792)
+-   Avoid old-school, cringeworthy ads styles though. If your video sounds boomer, it wont work - not even on boomers. Instead, embrace the new style of advertising that blends seamlessly into TikTok’s culture. e.g. instead of saying “I’m building Cue, the worlds first XYZ”, say “My Boss thinks I’m a 10X engineer. I’m actually not, I just record every meeting with Cue so I know what he wants from me” Here is an example:
+
+    <figure class="tiktok-video"><iframe src="https://www.tiktok.com/player/v1/7434489135655701792?autoplay=0" title="TikTok video example" width="340" height="604" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; picture-in-picture" allowfullscreen></iframe><figcaption><a href="https://www.tiktok.com/@carter.chat/video/7434489135655701792">Open on TikTok ↗</a></figcaption></figure>
     
 -   You’re still making ads on TikTok, just done beautifully with the right tone and fit with the existing community. Be bold with product placement but still be tasteful and natural.
     
@@ -44,9 +48,13 @@ Assuming you’re already hitting this, you’ve formed the habit and it’s bee
 
 -   Respond to as many people as you can in comments. It keeps them coming back and tikTok see that those users return to watch the video a second time. That’s great for the algorithm. Respond to as many people as you can and treat everyone like a real human. The algo loves to see the additional engagement and will reward you + people love getting responses from creator accounts. These people then become advocates and bring new people.
     
--   TikTok’s culture shifts daily. If you’re in tune with it, you’ll catch great opportunities. If you’re not, you risk missing the mark completely. Don’t stop keeping up to date with the content that your community is watching. Also more broadly, don’t miss out on trends. Any trend that’s going big, jump on it and make **multiple** pieces of content doing the trend, but fitted to your audience. Tiktok carries trend following videos further, because it instigates more users on their platform to become creators - ride these waves. here is an example: [https://www.tiktok.com/@carter.chat/video/7436342785663438112](https://www.tiktok.com/@carter.chat/video/7436342785663438112)
+-   TikTok’s culture shifts daily. If you’re in tune with it, you’ll catch great opportunities. If you’re not, you risk missing the mark completely. Don’t stop keeping up to date with the content that your community is watching. Also more broadly, don’t miss out on trends. Any trend that’s going big, jump on it and make **multiple** pieces of content doing the trend, but fitted to your audience. Tiktok carries trend following videos further, because it instigates more users on their platform to become creators - ride these waves. here is an example:
+
+    <figure class="tiktok-video"><iframe src="https://www.tiktok.com/player/v1/7436342785663438112?autoplay=0" title="TikTok video example" width="340" height="604" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; picture-in-picture" allowfullscreen></iframe><figcaption><a href="https://www.tiktok.com/@carter.chat/video/7436342785663438112">Open on TikTok ↗</a></figcaption></figure>
     
--   Use your competitors: If you have a competitor that everyone knows, use their name in your captions and content. it helps keep people for longer because they care about your competitor. Then over the course of watching your content, they’ll learn who you are and then start to care about you. Look at this namedrop of a competitor: [https://www.tiktok.com/@carter.chat/video/7431135711065132321](https://www.tiktok.com/@carter.chat/video/7431135711065132321)
+-   Use your competitors: If you have a competitor that everyone knows, use their name in your captions and content. it helps keep people for longer because they care about your competitor. Then over the course of watching your content, they’ll learn who you are and then start to care about you. Look at this namedrop of a competitor:
+
+    <figure class="tiktok-video"><iframe src="https://www.tiktok.com/player/v1/7431135711065132321?autoplay=0" title="TikTok video example" width="340" height="604" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; picture-in-picture" allowfullscreen></iframe><figcaption><a href="https://www.tiktok.com/@carter.chat/video/7431135711065132321">Open on TikTok ↗</a></figcaption></figure>
     
 
 <h2 id="encourage-discussion"><strong>Encourage Discussion</strong></h2>
@@ -58,7 +66,9 @@ Assuming you’re already hitting this, you’ve formed the habit and it’s bee
 
 <h2 id="guide-user-behaviour"><strong>Guide User Behaviour</strong></h2>
 
--   TikTok users are **malleable**. If you tastefully ask for likes, you’ll get more. If you tastefully ask for favourites. This works especially if you make super super relateable content. Speak like your users and they will speak back, like this: [https://www.tiktok.com/@carter.chat/video/7432223901997976865](https://www.tiktok.com/@carter.chat/video/7432223901997976865)
+-   TikTok users are **malleable**. If you tastefully ask for likes, you’ll get more. If you tastefully ask for favourites. This works especially if you make super super relateable content. Speak like your users and they will speak back, like this:
+
+    <figure class="tiktok-video"><iframe src="https://www.tiktok.com/player/v1/7432223901997976865?autoplay=0" title="TikTok video example" width="340" height="604" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; picture-in-picture" allowfullscreen></iframe><figcaption><a href="https://www.tiktok.com/@carter.chat/video/7432223901997976865">Open on TikTok ↗</a></figcaption></figure>
 
 <h2 id="put-a-face-to-your-content"><strong>Put a Face to Your Content</strong></h2>
 
@@ -70,7 +80,9 @@ Assuming you’re already hitting this, you’ve formed the habit and it’s bee
     
 -   Look at other platforms where your community are. Look at what they’re all talking about in the moment and then be creative and turn that into some kind of TikTok. The thing you’re making a TikTok about has already been validated to be what people want from those other platforms, so it has a high likelihood of working for you.
     
--   **FOMO is a powerful driver.** Make people feel like they’re missing out. If you don’t have hype yet, fake it till you make it. Like this: [https://www.tiktok.com/@carter.chat/video/7428160129989725473](https://www.tiktok.com/@carter.chat/video/7428160129989725473) (we didn’t have millions of users)
+-   **FOMO is a powerful driver.** Make people feel like they’re missing out. If you don’t have hype yet, fake it till you make it. Like this: (we didn’t have millions of users)
+
+    <figure class="tiktok-video"><iframe src="https://www.tiktok.com/player/v1/7428160129989725473?autoplay=0" title="TikTok video example" width="340" height="604" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; picture-in-picture" allowfullscreen></iframe><figcaption><a href="https://www.tiktok.com/@carter.chat/video/7428160129989725473">Open on TikTok ↗</a></figcaption></figure>
     
 
 <h2 id="master-the-first-2-seconds"><strong>Master the First 2 Seconds</strong></h2>

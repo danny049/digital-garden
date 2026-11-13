@@ -5,10 +5,10 @@ dek: "During covid, she made brownies in her parent's apartment fulfilling 2 ord
 date: "2025-02-04"
 category: "marketing"
 sources: [{"name":"Substack","url":"https://dannyhayder.substack.com/p/this-girl-sold-24-million-brownies","id":"https://dannyhayder.substack.com/p/this-girl-sold-24-million-brownies","date":"2025-02-04","status":"imported"}]
-mediaReview: [{"url":"https://substackcdn.com/image/fetch/$s_!IUGQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4df6f54-3617-444e-80e5-46998430fbaa_2048x1536.png","note":"Cover collage uses third-party images. The original is linked at its position in the essay."}]
+mediaReview: []
 ---
 
-<a href="https://substackcdn.com/image/fetch/$s_!IUGQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4df6f54-3617-444e-80e5-46998430fbaa_2048x1536.png">View the original cover image ↗</a>
+<img src="/images/essays/brownie-god-cover.webp" alt="Decorated brownies beside a portrait of the founder, with the caption “$10M brownie empire”." width="1120" height="840" loading="lazy" decoding="async">
 
 ### **🛠 What is Brownie God?**
 

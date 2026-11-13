@@ -5,10 +5,10 @@ dek: "Jess Hunt built Refy Beauty to $50m in revenue, purely organically through
 date: "2025-02-05"
 category: "marketing"
 sources: [{"name":"Substack","url":"https://dannyhayder.substack.com/p/how-she-grew-a-50m-brand-from-her","id":"https://dannyhayder.substack.com/p/how-she-grew-a-50m-brand-from-her","date":"2025-02-05","status":"imported"}]
-mediaReview: [{"url":"https://substackcdn.com/image/fetch/$s_!Rg1r!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97ec6a59-a6d5-4f67-a4df-8d865fc57744_1024x768.png","note":"Cover collage uses third-party images. The original is linked at its position in the essay."}]
+mediaReview: []
 ---
 
-<a href="https://substackcdn.com/image/fetch/$s_!Rg1r!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97ec6a59-a6d5-4f67-a4df-8d865fc57744_1024x768.png">View the original cover image ↗</a>
+<img src="/images/essays/refy-cover.webp" alt="The Refy logo beside a model holding a Refy brow product, with the caption “$50M from her eyebrows”." width="1024" height="768" loading="lazy" decoding="async">
 
 It’s 2 a.m.
 
