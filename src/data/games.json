@@ -1,0 +1,34 @@
+[
+  {
+    "ages": "2–10",
+    "era": "The PS2 years",
+    "titles": [
+      {"title":"Devil May Cry 2","cover":"dmc2","platform":"PS2","artworkSource":"https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Devil%20May%20Cry%202%20(Europe)%20(En,Fr,De,Es,It)%20(Disc%201).png"},
+      {"title":"Harry Potter and the Prisoner of Azkaban","cover":"azkaban","platform":"PS2","artworkSource":"https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban%20(Europe)%20(En,Fr,De,Es,It,Nl,Pt).png"},
+      {"title":"Grand Theft Auto: Vice City","cover":"vice-city","platform":"PS2","artworkSource":"https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Grand%20Theft%20Auto%20-%20Vice%20City%20(Europe)%20(En,Fr,De,Es,It)%20(v1.50).png"},
+      {"title":"Dead or Alive 4","cover":"doa4","platform":"Xbox 360","artworkSource":"https://cdn.mobygames.com/covers/6034990-dead-or-alive-4-xbox-360-front-cover.jpg"}
+    ]
+  },
+  {
+    "ages": "10–22",
+    "era": "The PS3 years",
+    "titles": [
+      {"title":"Call of Duty: Black Ops","cover":"black-ops","platform":"PS3","artworkSource":"https://art.gametdb.com/ps3/coverM/EN/BLES01031.jpg"},
+      {"title":"FIFA 12","cover":"fifa12","artworkSource":"https://art.gametdb.com/ps3/coverM/EN/BLES01381.jpg"},
+      {"title":"Assassin's Creed: Brotherhood","cover":"brotherhood","artworkSource":"https://art.gametdb.com/ps3/coverM/EN/BLES00909.jpg"},
+      {"title":"Grand Theft Auto IV","cover":"gta4","artworkSource":"https://art.gametdb.com/ps3/coverM/EN/BLES00229.jpg"},
+      {"title":"Grand Theft Auto V","cover":"gta5","artworkSource":"https://thumbnails.libretro.com/Sony%20-%20PlayStation%203/Named_Boxarts/Grand%20Theft%20Auto%20V%20(USA).png"}
+    ]
+  },
+  {
+    "ages": "22–27",
+    "era": "Ranked matches and open worlds",
+    "titles": [
+      {"title":"Valorant","cover":"valorant","artworkSource":"https://gmedia.playstation.com/is/image/SIEPDC/valorant-packshot-01-en-31may24?$400px$"},
+      {"title":"Red Dead Redemption 2","cover":"rdr2","artworkSource":"https://www.gtabase.com/igallery/1801-1900/RDR_2_Cover_PS4-1838-720.jpg"},
+      {"title":"Ghost of Tsushima","cover":"ghost","platform":"PS5","artworkSource":"https://cdn.mobygames.com/covers/1018402-ghost-of-tsushima-directors-cut-playstation-5-front-cover.jpg"},
+      {"title":"Star Citizen","cover":"star-citizen","platform":"PC","artworkSource":"https://images.igdb.com/igdb/image/upload/t_cover_big/cocimn.jpg"},
+      {"title":"Marvel’s Spider-Man","cover":"spider-man","platform":"PS4","artworkSource":"https://cdn.mobygames.com/covers/7242748-marvel-spider-man-playstation-4-front-cover.jpg"}
+    ]
+  }
+]

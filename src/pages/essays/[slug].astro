@@ -1,0 +1,83 @@
+---
+import { render } from 'astro:content';
+import EssayLinks from '../../components/EssayLinks.astro';
+import Subscribe from '../../components/Subscribe.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import site from '../../data/site.json';
+import { dateLabel, type Essay, essayUrl, publicEssays } from '../../lib/essays';
+
+export async function getStaticPaths() {
+  const essays = await publicEssays();
+  return essays.map((essay) => {
+    const others = essays.filter((other) => other.id !== essay.id);
+    const related = [
+      ...others.filter((other) => other.data.category === essay.data.category),
+      ...others.filter((other) => other.data.category !== essay.data.category),
+    ].slice(0, 4);
+    return { params: { slug: essay.id }, props: { essay, related } };
+  });
+}
+
+interface Props { essay: Essay; related: Essay[] }
+const { essay, related } = Astro.props;
+const { title, description, dek, date } = essay.data;
+const { Content } = await render(essay);
+const url = new URL(essayUrl(essay), Astro.site).href;
+const article = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  datePublished: date,
+  url,
+  mainEntityOfPage: url,
+  image: new URL(site.socialImage, Astro.site).href,
+  author: { '@type': 'Person', '@id': new URL('/#danny', Astro.site).href, name: site.name, url: Astro.site!.href },
+};
+---
+<SiteLayout title={`${title} · ${site.name}`} description={description} article={{ date }} structuredData={article}>
+  <article class="reading">
+    <header class="page-heading essay-heading">
+      <a class="back-link" href="/essays/"><span aria-hidden="true">←</span> {site.navigation.back}</a>
+      <div class="essay-meta">
+        {date && <time datetime={date}>{dateLabel(date)}</time>}
+      </div>
+      <h1>{title}</h1>
+      {dek && <p class="essay-dek">{dek}</p>}
+    </header>
+    <div class="prose"><Content /></div>
+  </article>
+  {related.length > 0 && (
+    <section class="reading home-section related" aria-labelledby="more-essays">
+      <h2 id="more-essays">more essays...</h2>
+      <EssayLinks essays={related} />
+    </section>
+  )}
+  <div class="reading"><Subscribe id="essay-subscribe" /></div>
+</SiteLayout>
+
+<script>
+  const providers = {
+    'www.youtube-nocookie.com': /^\/embed\/[\w-]{11}$/,
+    'player.vimeo.com': /^\/video\/\d+$/,
+  };
+
+  document.querySelectorAll<HTMLDetailsElement>('details[data-video]').forEach((details) => {
+    details.addEventListener('toggle', () => {
+      const target = details.querySelector<HTMLElement>('.video-player');
+      if (!details.open || !target || target.firstElementChild) return;
+      const src = URL.parse(details.dataset.video ?? '', location.origin);
+      if (!src) return;
+      const allowed = providers[src.hostname as keyof typeof providers];
+      if (src.protocol !== 'https:' || !allowed?.test(src.pathname)) return;
+
+      const iframe = document.createElement('iframe');
+      iframe.src = src.href;
+      iframe.title = details.dataset.title ?? 'Video example';
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      iframe.allowFullscreen = true;
+      target.append(iframe);
+    });
+  });
+</script>

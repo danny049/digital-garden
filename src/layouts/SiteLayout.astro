@@ -1,0 +1,54 @@
+---
+import site from '../data/site.json';
+import '../styles/site.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  noindex?: boolean;
+  article?: { date?: string };
+  structuredData?: object;
+}
+
+const { title, description = site.description, noindex, article, structuredData } = Astro.props;
+const base = Astro.site!;
+const canonical = new URL(Astro.url.pathname, base);
+const image = new URL(site.socialImage, base);
+const metadata = structuredData && JSON.stringify(structuredData).replaceAll('<', '\\u003c');
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#ffffff" />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="alternate" type="application/rss+xml" title={site.name} href="/rss.xml" />
+    <meta property="og:type" content={article ? 'article' : 'website'} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={site.name} />
+    {article?.date && <meta property="article:published_time" content={article.date} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    {metadata && <script type="application/ld+json" set:html={metadata} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <main class="shell" id="main-content" tabindex="-1"><slot /></main>
+    <footer class="site-footer shell">
+      <a href="/essays/">{site.navigation.archive}</a>
+      <a href="/rss.xml">RSS</a>
+      <a href="/privacy/">{site.navigation.privacy}</a>
+    </footer>
+  </body>
+</html>

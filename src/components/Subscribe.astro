@@ -1,0 +1,64 @@
+---
+import site from '../data/site.json';
+
+interface Props {
+  id: string;
+}
+const { id } = Astro.props;
+const { invitation, founderCount, endpoint: liveEndpoint, publication } = site.newsletter;
+const endpoint = import.meta.env.DEV ? '/api/subscribe/' : liveEndpoint;
+const subscribeUrl = new URL('/subscribe', publication).href;
+---
+<section class="subscribe" aria-labelledby={`${id}-title`}>
+  <h2 id={`${id}-title`}><span class="signup-highlight">{invitation} <strong>{founderCount}</strong> founders SO much heartache 👇</span></h2>
+  {endpoint ? <form action={endpoint} method="post" data-subscribe>
+    <div class="signup-fields">
+      <label class="visually-hidden" for={`${id}-email`}>Email address</label>
+      <input id={`${id}-email`} type="email" name="email" placeholder="Email address" autocomplete="email" required maxlength="254" />
+      <button type="submit">Subscribe</button>
+    </div>
+  </form> : <a class="subscribe-link" href={subscribeUrl}>Subscribe on Substack</a>}
+  <p class="signup-status" role="status"></p>
+</section>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('form[data-subscribe]').forEach((form) => {
+    const section = form.closest('section')!;
+    const heading = section.querySelector('h2')!;
+    const status = section.querySelector<HTMLElement>('.signup-status')!;
+    const button = form.querySelector('button')!;
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (button.disabled) return;
+      button.disabled = true;
+      status.textContent = '';
+
+      try {
+        const fields = new FormData(form);
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: { Accept: 'application/json' },
+          body: new URLSearchParams({ email: String(fields.get('email') ?? '') }),
+          signal: AbortSignal.timeout(10_000),
+        });
+        const result = await response.json();
+        if (response.ok && result.subscribed === true) {
+          form.hidden = true;
+          heading.hidden = true;
+          section.removeAttribute('aria-labelledby');
+          status.dataset.success = '';
+          status.textContent = "You're in.";
+        } else {
+          status.textContent = response.status === 400
+            ? 'Check your email address and try again.'
+            : 'Couldn’t save your email. Try again in a moment.';
+        }
+      } catch {
+        status.textContent = 'Couldn’t save your email. Try again in a moment.';
+      } finally {
+        button.disabled = false;
+      }
+    });
+  });
+</script>

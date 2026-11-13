@@ -1,0 +1,24 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import site from '../data/site.json';
+---
+<SiteLayout title={`Privacy · ${site.name}`} description="How this site handles your information.">
+  <div class="reading">
+    <header class="page-heading">
+      <a class="back-link" href="/"><span aria-hidden="true">←</span> {site.navigation.home}</a>
+      <h1>Privacy</h1>
+    </header>
+    <div class="prose">
+      <h2>Email</h2>
+      {import.meta.env.DEV ? (
+        <p>The local preview saves your email address and signup time in a database on this computer.</p>
+      ) : site.newsletter.endpoint ? (
+        <p>When you sign up, the signup service saves your email address and the time you signed up. Each newsletter email includes a way to unsubscribe.</p>
+      ) : (
+        <p>Substack handles newsletter signups and stores the email address you share with it. You can unsubscribe using the link in any newsletter email. See <a href="https://substack.com/privacy">Substack’s privacy policy</a> for details.</p>
+      )}
+      <h2>Visiting the site</h2>
+      <p>This site has no analytics or advertising scripts. When an embedded video loads, its provider may receive information such as your IP address and set cookies.</p>
+    </div>
+  </div>
+</SiteLayout>

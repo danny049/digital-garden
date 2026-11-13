@@ -1,0 +1,24 @@
+---
+import { legacyPaths } from '../lib/legacy';
+export const getStaticPaths = legacyPaths;
+const { title, destination } = Astro.props;
+const canonical = new URL(destination, Astro.site);
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href={canonical} />
+    <noscript><meta http-equiv="refresh" content={`0;url=${destination}`} /></noscript>
+  </head>
+  <body>
+    <p>This essay moved to <a id="essay-location" href={destination}>{title}</a>.</p>
+    <script is:inline>
+      const destination = document.querySelector('#essay-location').href;
+      location.replace(destination + location.hash);
+    </script>
+  </body>
+</html>

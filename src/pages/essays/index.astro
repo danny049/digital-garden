@@ -1,0 +1,31 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import site from '../../data/site.json';
+import { dateLabel, essayUrl, publicEssays } from '../../lib/essays';
+
+const essays = await publicEssays();
+const groups = site.categories.map((category) => ({
+  ...category, essays: essays.filter((essay) => essay.data.category === category.id),
+})).filter(({ essays }) => essays.length);
+---
+<SiteLayout title={`${site.navigation.archive} · ${site.name}`} description={site.description}>
+  <header class="page-heading">
+    <a class="back-link" href="/"><span aria-hidden="true">←</span> {site.navigation.home}</a>
+    <h1>{site.navigation.archive}</h1>
+  </header>
+  <div class="archive">
+    {groups.map(({ label, essays }) => (
+      <section class="archive-group">
+        <h2>{label}</h2>
+        <ul role="list">
+          {essays.map((essay) => (
+            <li>
+              <a href={essayUrl(essay)}>{essay.data.title}</a>
+              {essay.data.date && <time datetime={essay.data.date}>{dateLabel(essay.data.date)}</time>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</SiteLayout>

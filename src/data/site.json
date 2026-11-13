@@ -1,0 +1,36 @@
+{
+  "name": "Danny Hayder",
+  "headline": "Danny Hayder",
+  "subtitle": "I build games & apps that are played by millions 🫰",
+  "intro": "",
+  "now": "",
+  "description": "Essays by Danny Hayder on business, marketing, life, and gaming.",
+  "portrait": "/images/danny-hayder-colour.webp",
+  "socialImage": "/images/danny-hayder-social.jpg",
+  "newsletter": {
+    "invitation": "My emails save",
+    "founderCount": "16,233",
+    "endpoint": null,
+    "publication": "https://dannyhayder.substack.com",
+    "feedUrl": "https://dannyhayder.substack.com/feed"
+  },
+  "navigation": {
+    "archive": "All essays",
+    "back": "Back to all essays",
+    "home": "Back home",
+    "privacy": "Privacy"
+  },
+  "categories": [
+    { "id": "business", "label": "on business..." },
+    { "id": "marketing", "label": "on marketing..." },
+    { "id": "life", "label": "on life..." },
+    { "id": "gaming", "label": "on gaming..." }
+  ],
+  "socials": [
+    { "label": "YouTube", "url": "https://www.youtube.com/@dannyhayder", "primary": true },
+    { "label": "TikTok", "url": "https://www.tiktok.com/@dannyhayder" },
+    { "label": "Instagram", "url": "https://www.instagram.com/dannyhayder" },
+    { "label": "X", "url": "https://x.com/dannyhayder" },
+    { "label": "onlyfans", "reveal": "really bro? 😐" }
+  ]
+}

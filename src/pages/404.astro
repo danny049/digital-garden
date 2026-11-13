@@ -1,0 +1,10 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import site from '../data/site.json';
+---
+<SiteLayout title={`Page not found · ${site.name}`} noindex>
+  <header class="page-heading">
+    <h1>Page not found.</h1>
+    <p><a href="/essays/">Browse the essays</a> or <a href="/">go home</a>.</p>
+  </header>
+</SiteLayout>

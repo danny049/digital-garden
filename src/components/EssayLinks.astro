@@ -1,0 +1,11 @@
+---
+import { type Essay, essayUrl } from '../lib/essays';
+
+interface Props {
+  essays: Essay[];
+}
+const { essays } = Astro.props;
+---
+<ul class="essay-links">
+  {essays.map((essay) => <li><a href={essayUrl(essay)}>{essay.data.title}</a></li>)}
+</ul>

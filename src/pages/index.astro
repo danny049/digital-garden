@@ -1,0 +1,94 @@
+---
+import EssayLinks from '../components/EssayLinks.astro';
+import Subscribe from '../components/Subscribe.astro';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import games from '../data/games.json';
+import site from '../data/site.json';
+import { publicEssays } from '../lib/essays';
+
+const essays = await publicEssays();
+const groups = site.categories.map((category) => ({
+  ...category, essays: essays.filter((essay) => essay.data.category === category.id),
+})).filter(({ essays }) => essays.length);
+const person = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': new URL('/#danny', Astro.site).href,
+  name: site.name,
+  url: Astro.site!.href,
+  image: new URL(site.portrait, Astro.site).href,
+  sameAs: site.socials.flatMap(({ url }) => url ? [url] : []),
+};
+---
+<SiteLayout title={site.name} structuredData={person}>
+  <section class="intro" aria-labelledby="intro-title">
+    <img class="portrait" src={site.portrait} alt={site.name} width="240" height="240" fetchpriority="high" />
+    <h1 id="intro-title">{site.headline}</h1>
+    <p class="subtitle">{site.subtitle}</p>
+    {site.intro && <p class="intro-extra">{site.intro}</p>}
+    {site.now && <p class="intro-extra">{site.now}</p>}
+  </section>
+
+  <Subscribe id="subscribe-top" />
+
+  {groups.map(({ id, label, essays }) => (
+    <section class="home-section" aria-labelledby={`essays-${id}`}>
+      <h2 id={`essays-${id}`}>{label}</h2>
+      <EssayLinks essays={essays} />
+    </section>
+  ))}
+
+  <section class="home-section" aria-labelledby="social-title">
+    <h2 id="social-title">socials</h2>
+    <ul class="socials">
+      {site.socials.map((social) => (
+        social.reveal ? (
+          <li class="social-joke">
+            <button type="button" aria-expanded="false" aria-controls="onlyfans-reveal">{social.label}</button>
+            <span id="onlyfans-reveal" hidden>{social.reveal}</span>
+          </li>
+        ) : (
+          <li><a class:list={{ 'primary-social': social.primary }} href={social.url}>{social.label}</a></li>
+        )
+      ))}
+    </ul>
+  </section>
+
+  <section class="home-section" id="games-that-define-me" aria-labelledby="games-title">
+    <h2 id="games-title">Games that define me:</h2>
+    {games.map(({ ages, era, titles }) => (
+      <div class="game-era">
+        <h3><span>Ages {ages}</span>{era}</h3>
+        <ul class="game-covers" role="list">
+          {titles.map(({ title, cover, platform }) => (
+            <li>
+              <img src={`/images/games/${cover}.webp`} alt="" width="240" height="320" loading="lazy" decoding="async" />
+              <span>{title}</span>
+              {platform && <small>{platform}</small>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </section>
+
+</SiteLayout>
+
+<script>
+  const trigger = document.querySelector<HTMLButtonElement>('.social-joke button');
+  const reveal = document.getElementById('onlyfans-reveal');
+
+  if (trigger && reveal) {
+    let dismissTimer: number | undefined;
+    const setExpanded = (expanded: boolean) => {
+      reveal.hidden = !expanded;
+      trigger.setAttribute('aria-expanded', String(expanded));
+    };
+    trigger.addEventListener('click', () => {
+      window.clearTimeout(dismissTimer);
+      const expanded = reveal.hidden;
+      setExpanded(expanded);
+      if (expanded) dismissTimer = window.setTimeout(() => setExpanded(false), 4000);
+    });
+  }
+</script>
