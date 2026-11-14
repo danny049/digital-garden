@@ -38,7 +38,7 @@ const article = {
 <SiteLayout title={`${title} · ${site.name}`} description={description} article={{ date }} structuredData={article}>
   <article class="reading">
     <header class="page-heading essay-heading">
-      <a class="back-link" href="/essays/"><span aria-hidden="true">←</span> {site.navigation.back}</a>
+      <a class="back-link" href="/"><span aria-hidden="true">←</span> {site.navigation.home}</a>
       <div class="essay-meta">
         {date && <time datetime={date}>{dateLabel(date)}</time>}
       </div>
