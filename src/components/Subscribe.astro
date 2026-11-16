@@ -5,12 +5,12 @@ interface Props {
   id: string;
 }
 const { id } = Astro.props;
-const { invitation, founderCount, endpoint: liveEndpoint, publication } = site.newsletter;
+const { invitation, readerCount, endpoint: liveEndpoint, publication } = site.newsletter;
 const endpoint = import.meta.env.DEV ? '/api/subscribe/' : liveEndpoint;
 const subscribeUrl = new URL('/subscribe', publication).href;
 ---
 <section class="subscribe" aria-labelledby={`${id}-title`}>
-  <h2 id={`${id}-title`}><span class="signup-highlight">{invitation} <strong>{founderCount}</strong> founders SO much heartache 👇</span></h2>
+  <h2 id={`${id}-title`}><span class="signup-highlight">Join <strong>{readerCount}</strong> {invitation}</span></h2>
   {endpoint ? <form action={endpoint} method="post" data-subscribe>
     <div class="signup-fields">
       <label class="visually-hidden" for={`${id}-email`}>Email address</label>
